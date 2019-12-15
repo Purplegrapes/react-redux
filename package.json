@@ -1,0 +1,29 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist/ -s inline",
+    "watch": "babel index.js -d dist/ -w -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purplegrapes/react-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purplegrapes/react-redux/issues"
+  },
+  "homepage": "https://github.com/Purplegrapes/react-redux#readme",
+  "dependencies": {
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0"
+  }
+}
