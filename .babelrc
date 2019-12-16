@@ -1,5 +1,9 @@
 {
-    "presets": [ 
-        "env" 
-    ] 
-}
+    "presets": ["env"],
+    "env": {
+      "debug": {
+        "sourceMaps": "inline",
+        "retainLines": true
+      }
+    }
+  }

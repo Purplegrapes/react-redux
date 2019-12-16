@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel index.js -d dist/ -s inline",
-    "watch": "babel index.js -d dist/ -w -s inline"
+    "build": "babel src/ -d dist/ -s inline",
+    "watch": "babel src/ -d dist/ -w -s inline"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Purplegrapes/react-redux#readme",
   "dependencies": {
+    "@babel/node": "^7.7.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
     "reselect": "^4.0.0"
   },
   "devDependencies": {
