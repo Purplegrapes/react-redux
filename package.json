@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/ -d dist/ -s inline",
-    "watch": "babel src/ -d dist/ -w -s inline"
+    "dev": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -19,13 +18,16 @@
   "homepage": "https://github.com/Purplegrapes/react-redux#readme",
   "dependencies": {
     "@babel/node": "^7.7.4",
-    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
     "reselect": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.17.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
